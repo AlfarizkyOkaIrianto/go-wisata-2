@@ -33,8 +33,8 @@
                         </ol>
                     </nav>
                 </div>
-                <input type="text" class="form-control" id="daterange" />
-                <button class="btn btn-success" type="submit" name="submit" value="table">Search</button>
+                {{-- <input type="text" class="form-control" id="daterange" /> --}}
+                {{-- <button class="btn btn-success" type="submit" name="submit" value="table">Search</button> --}}
                 {{-- <button class="btn btn-primary" type="submit" name="submit" value="download">Export All</button> --}}
             </div>
         </div>
@@ -51,7 +51,8 @@
                             <i class="fas fa-calendar"></i>
                         </div>
                     </div>
-                    <input type="text" class="form-control" id="daterange" name="daterange" />
+                    {{-- <input type="text" class="form-control" id="daterange" name="daterange" /> --}}
+                    <input type="text" class="form-control" id="daterange" name="daterange"/>
                     <button class="btn btn-success" type="submit" name="submit" value="table">Search</button>
                     {{-- <button class="btn btn-primary" type="submit" name="submit" value="download">Export All</button> --}}
                 </div>
